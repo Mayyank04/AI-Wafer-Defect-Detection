@@ -1,0 +1,32 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+env*/
+venv*/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# macOS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Raw dataset (large binary files > 100MB)
+data/raw/
+*.pkl
+*.pickle
+
+# Logs and checkpoints
+*.log
+checkpoint/
